@@ -47,10 +47,9 @@ button{
   border: none;
   border-radius: 8px; /* Adjust border radius as needed */
   cursor: pointer;
-  transition: background-image 0.3s ease; /* Smooth transition for gradient change */
 }
 button:hover{
-  background-image: linear-gradient(to right, #4ECCA3,#4e545e); /* Reverse gradient on hover */
+  background-image: linear-gradient(to right, #4ECCA3,#373b42); /* Reverse gradient on hover */
 }
 
 footer {
