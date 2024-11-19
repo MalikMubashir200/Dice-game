@@ -1,0 +1,62 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+.button_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  
+}
+button{
+  padding: 20px 40px; /* Adjust padding as needed */
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(to right, #b97446, #ee0979); /* Red gradient colors */
+  border: none;
+  border-radius: 8px; /* Adjust border radius as needed */
+  cursor: pointer;
+  transition: background-image 0.3s ease; /* Smooth transition for gradient change */
+}
+button:hover{
+  background-image: linear-gradient(to right, #4ECCA3,#4e545e); /* Reverse gradient on hover */
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
